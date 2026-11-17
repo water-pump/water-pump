@@ -1,519 +1,671 @@
 <!DOCTYPE html>
-<html lang="th">
+<html lang="th" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ช่างซ่อมปั๊มน้ำใกล้ฉัน ซ่อมติดตั้งปั๊มน้ำอาคาร โรงงาน คอนโด | เคเอส เซอร์วิส 89</title>
+    <title>เคเอส เซอร์วิส 89 | ช่างซ่อมปั๊มน้ำใกล้ฉัน ซ่อมติดตั้งปั๊มน้ำอาคาร โรงงาน คอนโด บ้านพักอาศัย</title>
+    
+    <!-- ปิดการค้นหาบน Google และ Search Engine ทั้งหมด -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet">
+    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet">
 
-    <meta name="description" content="ช่างซ่อมปั๊มน้ำใกล้ฉัน บริการซ่อมและติดตั้งปั๊มน้ำ Booster Pump, Transfer Pump, ปั๊มจุ่ม ไดโว่ ปั๊มสูบน้ำเสีย ท่อสูบน้ำพญานาค ตู้คอนโทรลปั๊มน้ำ งานระบบท่อประปา PVC PPR โทร 082-712-7490">
-    <meta name="robots" content="index, follow">
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.ksservice89.com">
+    <meta property="og:title" content="เคเอส เซอร์วิส 89 | ช่างซ่อมปั๊มน้ำใกล้ฉัน โทร 082-712-7490">
+    <meta property="og:description" content="บริการซ่อมติดตั้งปั๊มน้ำ Booster Pump, Transfer Pump, ไดโว่, ตู้คอนโทรล และเดินท่อประปา PVC PPR โดยช่างเกียรติพงษ์">
+    <meta property="og:image" content="https://raw.githubusercontent.com/ks89service/-ksservice-assets/main/hero-banner.jpg">
 
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Plumber",
-      "name": "เคเอส เซอร์วิส 89 ซ่อมติดตั้งระบบปั๊มน้ำ ช่างเกียรติพงษ์",
-      "telephone": "082-712-7490",
-      "url": "https://www.ksservice89.com",
-      "priceRange": "฿฿",
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "บางนา",
-        "addressRegion": "กรุงเทพมหานคร",
-        "postalCode": "10260",
-        "addressCountry": "TH"
-      },
-      "areaServed": [
-        "บางนา", "ประเวศ", "อุดมสุข", "ลาซาล", "แบริ่ง", "อ่อนนุช", 
-        "สวนหลวง", "พัฒนาการ", "กรุงเทพฯกรีฑา", "คลองตัน", "สุขุมวิท", 
-        "ศรีนครินทร์", "ลาดกระบัง", "บางจาก", "วัฒนา", "เอกมัย", "พระโขนง", 
-        "กิ่งแก้ว", "สำโรง", "ราชาเทวะ", "ราม 2", "บางแก้ว", "หนามแดง", 
-        "บางพลี", "สมุทรปราการ"
-      ],
-      "description": "บริการซ่อมและติดตั้งปั๊มน้ำ Booster Pump, ปั๊มน้ำอาคาร, คอนโด, โรงงาน, บ้านพักอาศัย, ปั๊มสูบน้ำเสีย, ไดโว่, ท่อสูบน้ำพญานาค, งานระบบท่อประปา pvc, ppr"
-    }
+    <!-- Google Fonts & Font Awesome Icons -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        gold: {
+                            100: '#fef9c3',
+                            200: '#fef08a',
+                            300: '#fde047',
+                            400: '#facc15',
+                            500: '#eab308',
+                            600: '#ca8a04',
+                            700: '#a16207',
+                            800: '#854d0e',
+                            goldfoil: '#d4af37',
+                            metallic: '#bf953f'
+                        },
+                        slateDark: {
+                            800: '#111827',
+                            900: '#0b0f19',
+                            950: '#04070e'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Prompt', 'sans-serif']
+                    }
+                }
+            }
+        }
     </script>
-      <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Prompt', 'Kanit', Arial, sans-serif;
-            -webkit-tap-highlight-color: transparent;
-        }
 
-        body {
-            background: #0a0b0d linear-gradient(180deg, #050607 0%, #111317 50%, #08090a 100%);
-            background-attachment: fixed;
-            color: #ffffff;
-            line-height: 1.4;
-            /* เพิ่มระยะห่างด้านล่างเพื่อไม่ให้แถบที่ลอยอยู่บังเนื้อหาตอนเลื่อนลงสุด */
-            padding-bottom: 220px; 
-            overflow-x: hidden;
-        }
-
-        /* 1. HEADER เปลี่ยนเป็นสีทอง Metallic Gradient สว่างหรูหรา */
-        header {
+    <style>
+        .gold-gradient-text {
             background: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%);
-            color: #111111;
-            padding: 10px 6px;
-            text-align: center;
-            box-shadow: 0 5px 18px rgba(0,0,0,0.8), inset 0 1px 2px rgba(255,255,255,0.8);
-            border-bottom: 2px solid #ffe57f;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
-        header h1 {
-            font-size: 1rem;
-            margin-bottom: 4px;
-            color: #111111;
-            font-weight: 900;
-            text-transform: uppercase;
-            line-height: 1.2;
-            letter-spacing: 0.5px;
+        .gold-btn {
+            background: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #d4af37 50%, #fbf5b7 75%, #aa771c 100%);
+            transition: all 0.3s ease;
         }
-        header p {
-            font-size: 0.75rem;
-            font-weight: 700;
-            color: #1a1a1a;
+        .gold-btn:hover {
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.6);
+            transform: translateY(-2px);
         }
-        .header-logo {
-            max-width: 50px;
-            height: auto;
-            border-radius: 50%;
-            background: linear-gradient(145deg, #2a2a2a, #0d0d0d);
-            border: 2px solid #111111;
-            margin-bottom: 4px;
-            box-shadow: 0 0 12px rgba(0, 0, 0, 0.4);
+        .luxury-card {
+            background: rgba(17, 24, 39, 0.85);
+            backdrop-filter: blur(8px);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            transition: all 0.3s ease;
         }
-        
-        .container {
-            width: 100%;
-            max-width: 1000px;
-            margin: 10px auto;
-            padding: 0 10px;
+        .luxury-card:hover {
+            border-color: rgba(212, 175, 55, 0.8);
+            transform: translateY(-4px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.7), 0 0 15px rgba(212, 175, 55, 0.2);
         }
-
-        /* 2. HERO CARD เปลี่ยนเป็นสีทอง Metallic Gradient สไตล์เดียวกับปุ่มหลัก */
-        .hero-card {
-            background: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%);
-            color: #111111;
-            padding: 12px 10px;
-            border-radius: 10px;
-            text-align: center;
-            box-shadow: 0 8px 25px rgba(0,0,0,0.7), inset 0 1px 2px rgba(255, 255, 255, 0.8);
-            margin-bottom: 12px;
-            border: 1px solid #ffe57f;
-        }
-        .hero-card h2 {
-            color: #111111;
-            font-size: 0.95rem;
-            font-weight: 800;
-            line-height: 1.3;
-            margin-bottom: 4px;
-        }
-        .hero-card p {
-            font-size: 0.75rem;
-            font-weight: 700;
-            color: #1a1a1a;
-            margin-bottom: 10px;
-            line-height: 1.4;
-        }
-        .btn-group-hero {
-            display: flex;
-            flex-direction: column;
-            gap: 6px;
-            align-items: center;
-            width: 100%;
-        }
-
-        .img-responsive {
-            width: 100%;
-            height: auto;
-            border-radius: 8px;
-            margin: 6px 0 8px 0;
-            object-fit: cover;
-            background-color: #000000;
-            border: 1px solid rgba(0, 0, 0, 0.4);
-            display: block;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-        }
-
-        .btn {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            width: 100%;
-            max-width: 100%;
-            padding: 6px 10px;
-            font-size: 0.8rem;
-            font-weight: bold;
-            text-decoration: none;
+        .gold-chip {
+            white-space: nowrap;
+            background: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(17, 24, 39, 0.8) 100%);
+            border: 1px solid rgba(212, 175, 55, 0.4);
+            color: #fce07a;
+            padding: 7px 15px;
             border-radius: 50px;
-            transition: all 0.3s ease;
-            text-align: center;
-            min-height: 32px;
-        }
-        .btn-call, .btn-line { 
-            background: linear-gradient(145deg, #00d659, #00a846);
-            color: #ffffff; 
-            box-shadow: 0 6px 15px rgba(0, 200, 83, 0.3), inset 1px 1px 2px rgba(255,255,255,0.4);
-            border: none;
-        }
-        .btn-call:hover, .btn-call:active, .btn-line:hover, .btn-line:active { 
-            background: linear-gradient(145deg, #00eb62, #00b84c);
-            transform: translateY(-2px);
-            box-shadow: 0 8px 20px rgba(0, 200, 83, 0.4), inset 1px 1px 2px rgba(255,255,255,0.5);
-        }
-
-        .web-btn-wrapper {
-            text-align: center;
-            margin: 12px 0;
-            padding: 2px;
-            width: 100%;
-        }
-        
-        .btn-web { 
-            background: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%); 
-            color: #111111; 
-            font-size: 0.9rem; 
-            padding: 10px 14px; 
-            border: 1px solid #ffe57f;
-            width: 100%;
-            max-width: 100%;
-            min-height: 42px;
-            box-shadow: 0 8px 20px rgba(0,0,0,0.6), inset 0 1px 2px rgba(255,255,255,0.8);
-            word-break: break-word;
-            border-radius: 50px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 6px;
-            font-weight: 800;
-            text-decoration: none;
-            transition: all 0.3s ease;
-        }
-        .btn-web:hover, .btn-web:active { 
-            background: linear-gradient(135deg, #cda34f 0%, #ffffff 25%, #c49839 50%, #ffffff 75%, #bb882d 100%);
-            transform: translateY(-2px);
-            box-shadow: 0 12px 25px rgba(212, 175, 55, 0.3);
-        }
-
-        /* --- ส่วนที่แก้ไขให้ลอยติดขอบจอด้านล่าง --- */
-        .sub-link-grid {
-            position: fixed;
-            bottom: 0;
-            left: 0;
-            width: 100%;
-            background: #08090a;
-            padding: 6px 10px;
-            z-index: 9999;
-            box-shadow: 0 -4px 15px rgba(0,0,0,0.6);
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 4px;
-            margin: 0;
-        }
-
-        .btn-sub-web {
-            background: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%);
-            color: #111111;
-            padding: 6px 10px;
-            border-radius: 6px;
-            border: 1px solid #ffe57f;
-            text-decoration: none;
-            font-size: 0.75rem;
-            font-weight: bold;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transition: all 0.3s ease;
-            box-shadow: 0 4px 10px rgba(0,0,0,0.4), inset 0 1px 1px rgba(255, 255, 255, 0.8);
-            min-height: 32px;
-        }
-        .btn-sub-web:hover {
-            background: linear-gradient(135deg, #cda34f 0%, #ffffff 25%, #c49839 50%, #ffffff 75%, #bb882d 100%);
-            color: #f00;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 15px rgba(212, 175, 55, 0.4);
-        }
-
-        .btn-web-logo {
-            width: 22px;
-            height: 22px;
-            border-radius: 50%;
-            border: 1px solid #f00;
-            object-fit: cover;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.2);
-        }
-
-        .seo-faint-text {
-            font-size: 0.65rem;
-            color: #000;
-            opacity: 0.5;
-            margin: 5px auto;
-            text-align: center;
-            line-height: 1.3;
-            max-width: 100%;
-            user-select: none;
-            word-wrap: break-word;
-            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
-        }
-
-        .section-title {
-            font-size: 0.85rem;
-            color: #f1c40f;
-            font-weight: 800;
-            margin-bottom: 8px;
-            border-bottom: 2px solid #d4af37;
-            display: inline-block;
-            padding-bottom: 4px;
-            text-transform: uppercase;
-            text-shadow: 0 2px 4px rgba(0,0,0,0.8);
-        }
-        
-        .grid {
-            display: grid;
-            grid-template-columns: 1fr;
-            gap: 10px;
-            margin-bottom: 10px;
-        }
-        
-        .card {
-            background: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%);
-            color: #111111;
-            padding: 10px 8px;
-            border-radius: 10px;
-            border: 1px solid #ffe57f;
-            box-shadow: 0 6px 15px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255, 255, 255, 0.8);
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
-        }
-        .card:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0,0,0,0.6), 0 0 10px rgba(212, 175, 55, 0.4);
-        }
-        .card h3 {
-            font-size: 0.85rem;
-            color: #111111;
-            font-weight: 800;
-            margin-bottom: 4px;
-            line-height: 1.3;
-            display: flex;
-            align-items: center;
-            gap: 6px;
-        }
-
-        .icon-circle {
+            font-size: 0.78rem;
+            font-weight: 600;
             display: inline-flex;
             align-items: center;
-            justify-content: center;
-            width: 28px;
-            height: 28px;
-            min-width: 28px;
-            border-radius: 50%;
-            background: linear-gradient(145deg, #2a2a2a, #0d0d0d);
-            border: 1px solid rgba(255, 214, 0, 0.8);
-            box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
-            font-size: 0.8rem;
-            color: #f1c40f;
+            gap: 7px;
+            transition: all 0.2s ease;
+            flex-shrink: 0;
+            text-decoration: none;
         }
-
-        .card ul {
-            list-style-type: none;
-            margin-top: 4px;
-        }
-        .card ul li {
-            font-size: 0.75rem;
-            font-weight: 700;
-            color: #111111;
-            margin-bottom: 4px;
-            position: relative;
-            padding-left: 14px;
-            line-height: 1.3;
-        }
-        .card ul li::before {
-            content: "✓";
+        .gold-chip:hover {
+            background: linear-gradient(135deg, #fce07a 0%, #d4af37 100%);
             color: #000000;
-            position: absolute;
-            left: 0;
-            font-weight: 900;
-            font-size: 0.75rem;
+            transform: translateY(-1px);
+            box-shadow: 0 3px 10px rgba(212, 175, 55, 0.3);
         }
-
-        .location-box {
-            background: linear-gradient(135deg, #bf953f 0%, #fcf6ba 25%, #b38728 50%, #fbf5b7 75%, #aa771c 100%);
-            color: #f1c40f;
-            padding: 10px 8px;
-            border-radius: 10px;
-            margin-bottom: 10px;
-            box-shadow: 0 6px 15px rgba(0,0,0,0.5), inset 0 1px 1px rgba(255, 255, 255, 0.8);
-            border: 1px solid #ffe57f;
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
         }
-        .location-box .section-title {
-            color: #111111;
-            border-bottom-color: #111111;
-            text-shadow: none;
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
         }
-        .location-box p {
-            font-size: 0.75rem;
-            font-weight: 700;
-            color: #111111;
-            margin-top: 4px;
-            line-height: 1.4;
-        }
-        .tag-container {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 4px;
-            margin-top: 6px;
-        }
-        .tag {
-            background: linear-gradient(145deg, #242830, #121418);
-            color: #f1c40f;
-            font-weight: 600;
-            padding: 2px 6px;
-            border-radius: 12px;
-            font-size: 0.65rem;
-            border: 1px solid rgba(212, 175, 55, 0.5);
-            box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
-        }
-
-        @media (min-width: 768px) {
-            header { padding: 14px 10px; }
-            header h1 { font-size: 1.25rem; }
-            .header-logo { max-width: 70px; }
-            .container { padding: 0 15px; }
-            .hero-card { padding: 18px 15px; }
-            .hero-card h2 { font-size: 1.15rem; }
-            .hero-card p { font-size: 0.85rem; }
-            .section-title { font-size: 1rem; }
-            .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
-            .card { padding: 12px 10px; }
-            .card h3 { font-size: 0.9rem; }
-            .card ul li { font-size: 0.8rem; }
-            .btn { width: auto; max-width: 300px; display: inline-flex; font-size: 0.9rem; }
-            .btn-group-hero { flex-direction: row; justify-content: center; gap: 10px; }
-            .btn-web { max-width: 400px; font-size: 1rem; padding: 10px 16px; }
-            .btn-web-logo { width: 28px; height: 28px; }
-            .location-box p { font-size: 0.8rem; }
-            .tag { font-size: 0.75rem; padding: 4px 8px; }
-            body { padding-bottom: 120px; }
+        details[open] summary .faq-icon {
+            transform: rotate(180deg);
         }
     </style>
 </head>
-<body>
-    <header>
-        <img src="logo.png" alt="โลโก้ เคเอส เซอร์วิส 89 ช่างซ่อมปั๊มน้ำ" class="header-logo">
-        <h1>เคเอส เซอร์วิส 89 ช่างซ่อมติดตั้งระบบปั๊มน้ำใกล้ฉัน</h1>
-        <p>บริการซ่อม ติดตั้ง ปั๊มน้ำอาคาร โรงงาน คอนโด & งานเดินระบบท่อประปา</p>
-    </header>
 
-    <div class="container">
-        <div class="hero-card">
-            <h2>ช่างซ่อมและติดตั้งปั๊มน้ำ ปั๊มอาคารคอนโด บ้านพักอาศัย</h2>
-            <p>บริการซ่อมและติดตั้งปั๊มน้ำ Booster Pump, Transfer Pump, ปั๊มจุ่ม, ไดโว่, ปั๊มสูบน้ำเสีย ตู้คอนโทรลปั๊มน้ำ สำหรับอาคาร คอนโด โรงงาน หมู่บ้าน และบ้านพักอาศัย</p>
+<body class="bg-slateDark-950 text-slate-100 font-sans selection:bg-gold-500 selection:text-black pb-28 md:pb-16 antialiased">
 
-            <div class="btn-group-hero">
-                <a href="tel:0827127490" class="btn btn-call">📞 โทร: 082-712-7490</a>
-                <a href="https://line.me/ti/p/EUJqXVHGGA" target="_blank" rel="noopener" class="btn btn-line">💬 ทักไลน์สอบถาม</a>
+    <!-- Top Contact Bar -->
+    <div class="bg-gradient-to-r from-slate-900 via-slateDark-900 to-black border-b border-gold-goldfoil/30 text-xs py-2 px-4">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center gap-4 text-slate-300">
+                <span class="flex items-center gap-1.5"><i class="fa-solid fa-clock text-gold-400"></i> เปิดบริการ 07:00 - 21:00 น.</span>
+                <span class="hidden sm:flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-gold-400"></i> โซนบางนา ศรีนครินทร์ และสมุทรปราการ</span>
             </div>
-        </div>
-        <h2 class="section-title">งานซ่อมและติดตั้งปั๊มน้ำและปั๊มสูบน้ำ</h2>
-        <div class="grid">
-            <div class="card">
-                <h3>🛠️ รับงานบริการซ่อมและติดตั้งปั๊มน้ำ อาคาร โรงงาน</h3>
-                <img src="service-pump.jpg" alt="ช่างซ่อมติดตั้งปั๊มน้ำ Booster Pump โรงงาน คอนโด" class="img-responsive">
-                <ul>
-                    <li>ปั๊มน้ำอาคาร, คอนโด, โรงงาน, บ้านพักอาศัย</li>
-                    <li>ซ่อมและติดตั้งปั๊มน้ำ (ระบบคอนโทรลปั๊มน้ำ)</li>
-                    <li>ระบบ Booster Pump (เปลี่ยนถังแรงดัน)</li>
-                    <li>ระบบ Transfer Pump (ปั๊มส่งน้ำขึ้นอาคาร)</li>
-                </ul>
+            <div class="flex items-center gap-3">
+                <a href="https://www.facebook.com/ksservice898" target="_blank" rel="noopener" class="text-slate-300 hover:text-gold-300 transition" title="Facebook Page"><i class="fa-brands fa-facebook"></i> เพจติดต่อช่าง</a>
+                <a href="https://line.me/ti/p/EUJqXVHGGA" target="_blank" rel="noopener" class="text-slate-300 hover:text-green-400 transition" title="LINE ID"><i class="fa-brands fa-line"></i> แอดไลน์</a>
+                <a href="tel:0827127490" class="text-gold-300 hover:text-gold-100 font-bold flex items-center gap-1"><i class="fa-solid fa-phone"></i> 082-712-7490</a>
             </div>
-            <div class="card">
-                <h3>🌊 ระบบสูบน้ำ & ปั๊มจุ่ม ไดโว่ ปั๊มพญานาคไฟฟ้า</h3>
-                <img src="service-submersible.jpg" alt="บริการซ่อมปั๊มจุ่ม ไดโว่ ปั๊มสูบน้ำเสีย" class="img-responsive">
-                <ul>
-                    <li>ปั๊มสูบน้ำ, ปั๊มจุ่ม, ไดโว่</li>
-                    <li>ปั๊มสูบน้ำเสียซ่อม (ระบบคอนโทรลปั๊มสูบน้ำ)</li>
-                    <li>ซ่อม ท่อสูบน้ำพญานาค หมู่บ้าน โรงงาน</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>🔧 งานระบบท่อประปา PVC, PPR</h3>
-                <img src="service-pipe.jpg" alt="ช่างเดินงานระบบท่อประปา PVC PPR" class="img-responsive">
-                <ul>
-                    <li>เดินระบบท่อประปา PVC</li>
-                    <li>ติดตั้งและเชื่อมท่อ PPR (ท่อเชื่อมความร้อน)</li>
-                    <li>งานตู้คอนโทรลปั๊มน้ำ</li>
-                    <li>เดินระบบท่อประปา อาคาร โรงงาน และบ้านพักอาศัย</li>
-                </ul>
-            </div>
-            <div class="card">
-                <h3>🏠 บริการซ่อมติดตั้งปั๊มน้ำบ้านพักอาศัย</h3>
-                <img src="service-home.jpg" alt="ช่างซ่อมปั๊มน้ำใกล้ฉัน งานซ่อมปั๊มน้ำบ้านพักอาศัย" class="img-responsive">
-                <ul>
-                    <li>ช่างซ่อมปั๊มน้ำใกล้ฉัน ซ่อมปั๊มน้ำติดตั้งปั๊มน้ำ</li>
-                    <li>แก้ไขประปารั่วใต้พื้น</li>
-                    <li>เดินระบบท่อน้ำดีใหม่ และตรวจสอบระบบปั๊มน้ำ</li>
-                </ul>
-            </div>
-        </div>
-
-        <div class="location-box">
-            <h2 class="section-title" style="color: #ffd600; border-bottom-color: #ff600;">📍 พื้นที่ให้บริการ (Locations / Service Areas)</h2>
-            <p>ให้บริการเขตกรุงเทพฯฝั่งตะวันออก จังหวัดสมุทรปราการ & พื้นที่ใกล้เคียง โทรติดต่อสอบถามได้ครับ</p>
-            <div class="tag-container" style="justify-content: flex-start;">
-                <span class="tag">บางนา</span>
-                <span class="tag">ประเวศ</span>
-                <span class="tag">อุดมสุข</span>
-                <span class="tag">ลาซาล</span>
-                <span class="tag">แบริ่ง</span>
-                <span class="tag">อ่อนนุช</span>
-                <span class="tag">สวนหลวง</span>
-                <span class="tag">พัฒนาการ</span>
-                <span class="tag">กรุงเทพฯกรีฑา</span>
-                <span class="tag">คลองตัน</span>
-                <span class="tag">สุขุมวิท</span>
-                <span class="tag">ศรีนครินทร์</span>
-                <span class="tag">ลาดกระบัง</span>
-                <span class="tag">บางจาก</span>
-                <span class="tag">วัฒนา</span>
-                <span class="tag">เอกมัย</span>
-                <span class="tag">พระโขนง</span>
-                <span class="tag">กิ่งแก้ว</span>
-                <span class="tag">ราชาเทวะ</span>
-                <span class="tag">ราม 2</span>
-                <span class="tag">บางแก้ว</span>
-                <span class="tag">หนามแดง</span>
-                <span class="tag">บางพลี</span>
-                <span class="tag">กรุงเทพฯฝั่งตะวันออก</span>
-                <span class="tag">จังหวัดสมุทรปราการ</span>
-            </div>
-        </div>
-        <div class="web-btn-wrapper">
-            <div class="seo-faint-text">
-                ช่างซ่อมปั๊มน้ำ พื้นที่ให้บริการ • ช่างปั๊มน้ำบางนา • ช่างปั๊มน้ำประเวศ • ช่างปั๊มน้ำอุดมสุข • ช่างปั๊มน้ำลาซาล • ช่างปั๊มน้ำแบริ่ง • ช่างปั๊มน้ำอ่อนนุช • ช่างปั๊มน้ำสวนหลวง • ช่างปั๊มน้ำพัฒนาการ • ช่างปั๊มน้ำกรุงเทพฯกรีฑา • ช่างปั๊มน้ำคลองตัน • ช่างปั๊มน้ำสุขุมวิท • ช่างปั๊มน้ำศรีนครินทร์
-            </div>
-            <a href="https://www.ksservice89.com" target="_blank" class="btn btn-web">
-                <img src="logo.png" alt="Logo" class="btn-web-logo">
-                <span>เว็บไซต์หลัก www.ksservice89.com</span>
-            </a>
-            <div class="seo-faint-text">
-                ช่างปั๊มน้ำลาดกระบัง • ช่างปั๊มน้ำบางจาก • ช่างปั๊มน้ำวัฒนา • ช่างปั๊มน้ำเอกมัย • ช่างปั๊มน้ำพระโขนง • ช่างปั๊มน้ำกิ่งแก้ว • ช่างปั๊มน้ำสำโรง • ช่างปั๊มน้ำราชาเทวะ • ช่างปั๊มน้ำราม 2 • ช่างปั๊มน้ำบางแก้ว • ช่างปั๊มน้ำหนามแดง • ช่างปั๊มน้ำบางพลี • ช่างปั๊มน้ำสมุทรปราการ • ช่างซ่อมปั๊มน้ำใกล้ฉัน
-            </div>
-        </div>
-        
-        <!-- แถบนี้จะลอยติดขอบจอด้านล่างเสมอ -->
-        <div class="sub-link-grid">
-            <a href="https://repair.ksservice89.com" target="_blank" rel="noopener" class="btn-sub-web">รับงานซ่อมเปลี่ยนถังแรงดันปั๊มน้ำ</a>
-            <a href="https://home-water-pump.ksservice89.com" target="_blank" rel="noopener" class="btn-sub-web">ปั๊มน้ำดีปั๊มสูบน้ำบ้านพักอาศัย</a>
-            <a href="https://pump.ksservice89.com" target="_blank" rel="noopener" class="btn-sub-web">ปั๊มน้ำอาคารโรงงานคอนโด</a>
-           <a href="https://divo.ksservice89.com/" target="_blank" rel="noopener" class="btn-sub-web">ปั๊มจุ่มไดโว่ปั๊มสูบพญานาคไฟฟ้า</a>
-            <a href="https://maintenance.ksservice89.com" target="_blank" rel="noopener" class="btn-sub-web">รับซ่อมบำรุง PM ระบบปั๊มน้ำ</a>
-            <a href="https://maps.google.com/?cid=123456789" target="_blank" rel="noopener" class="btn-sub-web">📍 หาค่าปั๊มน้ำที่ใกล้ฉัน</a>
         </div>
     </div>
+
+    <!-- Header เมนูด้านบน ลอยตามจอเวลาเลื่อน (Sticky Top) -->
+    <header class="sticky top-0 z-40 bg-slateDark-950/90 backdrop-blur-md border-b border-gold-goldfoil/30 shadow-2xl">
+        <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+            <a href="https://www.ksservice89.com" class="flex items-center gap-3 group shrink-0">
+                <img src="https://raw.githubusercontent.com/ks89service/-ksservice-assets/main/logo.png" 
+                     alt="โลโก้ เคเอส เซอร์วิส 89" 
+                     class="w-10 h-10 md:w-12 md:h-12 rounded-full border-2 border-gold-goldfoil shadow-lg object-cover group-hover:scale-105 transition"
+                     onerror="this.src='https://placehold.co/100x100/111827/d4af37?text=KS89'">
+                <div>
+                    <h1 class="text-sm md:text-base font-extrabold gold-gradient-text leading-tight">เคเอส เซอร์วิส 89</h1>
+                    <p class="text-[10px] md:text-xs text-slate-400">ช่างซ่อมปั๊มน้ำ 082-712-7490</p>
+                </div>
+            </a>
+            
+            <!-- ชิปเลื่อนสไลด์ด้านบน -->
+            <div id="gold-chips-container" class="flex gap-2 overflow-x-auto no-scrollbar scroll-smooth py-1 px-1">
+                <a href="https://www.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-house"></i> <span>หน้าหลักช่างปั๊มน้ำ</span>
+                </a>
+                <a href="https://near-me.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-location-crosshairs"></i> <span>ช่างปั๊มน้ำใกล้ฉัน</span>
+                </a>
+                <a href="https://home-water-pump.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-house-chimney"></i> <span>ซ่อมปั๊มน้ำบ้าน</span>
+                </a>
+                <a href="https://booster.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-industry"></i> <span>งานบูสเตอร์ปั๊ม</span>
+                </a>
+                <a href="https://pump.ksservice89.com/control-panel/" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-bolt"></i> <span>ตู้คอนโทรลปั๊มน้ำ</span>
+                </a>
+                <a href="https://transfer-pump.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-building"></i> <span>ปั๊มส่งน้ำดาดฟ้า</span>
+                </a>
+                <a href="https://divo.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-water"></i> <span>ปั๊มจุ่มไดโว่</span>
+                </a>
+                <a href="https://pipe.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-faucet-drip"></i> <span>เดินท่อประปา</span>
+                </a>
+            </div>
+
+            <a href="tel:0827127490" class="gold-btn text-black font-extrabold px-3 py-1.5 md:px-4 md:py-2 rounded-full text-xs md:text-sm shadow-md flex items-center gap-1.5 shrink-0">
+                <i class="fa-solid fa-phone-volume"></i> <span class="hidden sm:inline">082-712-7490</span>
+            </a>
+        </div>
+    </header>
+
+    <!-- คอนเทนต์หลักของหน้าเว็บ -->
+    <main class="max-w-7xl mx-auto px-4 py-6 md:py-10 space-y-16">
+
+        <!-- Hero Section -->
+        <section class="relative rounded-2xl overflow-hidden border border-gold-goldfoil/40 bg-gradient-to-b from-slate-900/90 to-slateDark-950 p-6 md:p-10 shadow-2xl">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                <div class="lg:col-span-7 space-y-5">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-gold-500/10 border border-gold-500/30 text-gold-300 text-xs font-semibold">
+                        <i class="fa-solid fa-certificate"></i> บริการตรวจเช็คระบบปั๊มน้ำ service หน้างาน
+                    </div>
+                    <h2 class="text-2xl md:text-4xl lg:text-5xl font-extrabold leading-tight">
+                        ช่างซ่อมปั๊มน้ำใกล้ฉัน <br>
+                        <span class="gold-gradient-text">อาคาร คอนโด โรงงาน และบ้านพักอาศัย</span>
+                    </h2>
+                    <p class="text-slate-300 text-sm md:text-base leading-relaxed">
+                        บริการตรวจเช็ก ซ่อม และติดตั้ง Booster Pump, Transfer Pump, ถังแรงดันไดอะแฟรม, ปั๊มจุ่ม ไดโว่ ปั๊มสูบน้ำเสีย ท่อสูบน้ำพญานาค ตู้คอนโทรลปั๊มน้ำ และเดินท่อประปา PPR/PVC มาตรฐานงานช่าง
+                    </p>
+
+                    <div class="grid grid-cols-2 gap-3 pt-2 text-xs md:text-sm text-slate-200">
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> ซ่อมเปลี่ยนอะไหล่ปั๊มน้ำหาอุปกรณ์</div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i>ตรวจเช็คระบบ controlปั๊มน้ำซ่อมแก้ไขเปลี่ยนอุปกรณ์</div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> ซ่อมระบบควบคุมปั๊มสูบน้ำซ่อมโอเวอร์ฮอลระบบ</div>
+                        <div class="flex items-center gap-2"><i class="fa-solid fa-circle-check text-gold-400"></i> งานบริการซ่อมตรวจเช็คระบบปั๊มน้ำติดต่อสอบถาม</div>
+                    </div>
+
+                    <div class="flex flex-wrap items-center gap-3 pt-4">
+                        <a href="tel:0827127490" class="gold-btn text-black font-extrabold px-6 py-3.5 rounded-xl shadow-lg flex items-center gap-2 text-sm md:text-base">
+                            <i class="fa-solid fa-phone-flip text-lg"></i> โทรปรึกษาช่าง: 082-712-7490
+                        </a>
+                        <a href="https://line.me/ti/p/EUJqXVHGGA" target="_blank" rel="noopener" class="bg-[#06c755] hover:bg-[#05b34c] text-white font-bold px-6 py-3.5 rounded-xl shadow-lg flex items-center gap-2 text-sm md:text-base transition">
+                            <i class="fa-brands fa-line text-lg"></i> แอดไลน์ส่งรูปประเมินราคา
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-5 relative">
+                    <div class="relative rounded-xl overflow-hidden border-2 border-gold-goldfoil/50 shadow-2xl group">
+                        <img src="https://raw.githubusercontent.com/ks89service/-ksservice-assets/main/hero-banner.jpg" 
+                             alt="ช่างซ่อมปั๊มน้ำ Booster Pump คอนโด อาคาร" 
+                             class="w-full h-auto object-cover group-hover:scale-105 transition duration-500"
+                             onerror="this.src='https://placehold.co/800x450/111827/d4af37?text=KS+Service+89+Banner'">
+                        <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent flex items-end p-4">
+                            <span class="text-xs font-semibold text-gold-300 bg-black/60 px-3 py-1 rounded backdrop-blur-sm border border-gold-goldfoil/30">
+                                🛠️ บริการหน้างานจริงโดย เคเอส เซอร์วิส 89
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section (การ์ดบริการหลัก 4 ช่อง) -->
+        <section id="services" class="space-y-6">
+            <div class="text-center space-y-2">
+                <span class="text-xs uppercase font-extrabold tracking-widest text-gold-400">Pump Engineering Service</span>
+                <h2 class="text-2xl md:text-3xl font-extrabold">ขอบเขตงานบริการซ่อมและติดตั้ง</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-gold-400 to-gold-700 mx-auto rounded-full"></div>
+                <p class="text-sm text-slate-400 max-w-2xl mx-auto">งานปั๊มน้ำสำหรับ บ้านเดี่ยว ทาวน์โฮม คอนโดมิเนียม อาคารสูง และโรงงานอุตสาหกรรม</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- การ์ด 1: Booster & Transfer Pump -->
+                <div class="luxury-card rounded-xl p-5 flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden rounded-lg mb-4 border border-slate-700">
+                            <img src="https://raw.githubusercontent.com/ks89service/-ksservice-assets/main/service-pump.jpg" 
+                                 alt="ซ่อมปั๊มน้ำอาคาร Booster Pump Transfer Pump" 
+                                 class="w-full h-44 object-cover"
+                                 onerror="this.src='https://placehold.co/600x400/111827/d4af37?text=Booster+Pump'">
+                            <span class="absolute top-2 left-2 bg-black/70 text-gold-300 text-xs px-2.5 py-1 rounded border border-gold-500/40 font-bold">อาคาร & โรงงาน</span>
+                        </div>
+                        <h3 class="text-base font-bold text-gold-300 mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-industry"></i> ปั๊ม Booster & Transfer Pump
+                        </h3>
+                        <ul class="text-xs text-slate-300 space-y-2 mb-4">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gold-400 mt-0.5"></i> ตรวจเช็กและเปลี่ยนถังแรงดันไดอะแฟรม (Diaphragm Tank)</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gold-400 mt-0.5"></i> แก้ปัญหาน้ำชั้นบนไหลเบา ทรานเฟอร์ปั๊มส่งไม่ถึงดาดฟ้า</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gold-400 mt-0.5"></i> ตรวจตั้งค่า Pressure Switch / Pressure Transmitter</li>
+                        </ul>
+                    </div>
+                    <a href="https://booster.ksservice89.com" target="_blank" rel="noopener" class="mt-2 text-xs font-bold text-gold-400 hover:text-gold-200 flex items-center justify-between border-t border-slate-800 pt-3">
+                        <span>บริการซ่อมบูสเตอร์ปั๊มอาคาร</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- การ์ด 2: Submersible & Waste Water -->
+                <div class="luxury-card rounded-xl p-5 flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden rounded-lg mb-4 border border-slate-700">
+                            <img src="https://raw.githubusercontent.com/ks89service/-ksservice-assets/main/service-submersible.jpg" 
+                                 alt="ปั๊มจุ่ม ไดโว่ ปั๊มสูบน้ำเสีย" 
+                                 class="w-full h-44 object-cover"
+                                 onerror="this.src='https://placehold.co/600x400/111827/d4af37?text=Submersible+Pump'">
+                            <span class="absolute top-2 left-2 bg-black/70 text-gold-300 text-xs px-2.5 py-1 rounded border border-gold-500/40 font-bold">ระบบสูบระบายน้ำ</span>
+                        </div>
+                        <h3 class="text-base font-bold text-gold-300 mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-water"></i> ปั๊มจุ่ม ไดโว่ & สูบน้ำเสีย
+                        </h3>
+                        <ul class="text-xs text-slate-300 space-y-2 mb-4">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gold-400 mt-0.5"></i> ซ่อมและติดตั้งปั๊มจุ่ม (Submersible Pump) บ่อบำบัดน้ำเสีย</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gold-400 mt-0.5"></i> ติดตั้งท่อสูบน้ำพญานาค ระบายน้ำโครงการ ป้องกันน้ำท่วม</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gold-400 mt-0.5"></i> ตรวจเช็กสวิตช์ลูกลอยไฟฟ้า (Float Switch) ควบคุมระดับน้ำ</li>
+                        </ul>
+                    </div>
+                    <a href="https://divo.ksservice89.com" target="_blank" rel="noopener" class="mt-2 text-xs font-bold text-gold-400 hover:text-gold-200 flex items-center justify-between border-t border-slate-800 pt-3">
+                        <span>บริการซ่อมปั๊มจุ่มไดโว่</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- การ์ด 3: Control Panel Wiring -->
+                <div class="luxury-card rounded-xl p-5 flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden rounded-lg mb-4 border border-slate-700">
+                            <img src="https://raw.githubusercontent.com/ks89service/-ksservice-assets/main/service-control-panel.jpg" 
+                                 alt="ตู้คอนโทรลปั๊มน้ำ วายริ่งระบบไฟฟ้า" 
+                                 class="w-full h-44 object-cover"
+                                 onerror="this.src='https://placehold.co/600x400/111827/d4af37?text=Control+Panel'">
+                            <span class="absolute top-2 left-2 bg-black/70 text-gold-300 text-xs px-2.5 py-1 rounded border border-gold-500/40 font-bold">ตู้คอนโทรล</span>
+                        </div>
+                        <h3 class="text-base font-bold text-gold-300 mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-bolt"></i> ตู้คอนโทรล & วายริ่งไฟฟ้า
+                        </h3>
+                        <ul class="text-xs text-slate-300 space-y-2 mb-4">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gold-400 mt-0.5"></i> ประกอบและติดตั้งตู้คอนโทรลปั๊มน้ำ Auto / Manual</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gold-400 mt-0.5"></i> ตรวจเช็ก Overload Relay, Magnetic Contactor ป้องกันมอเตอร์ไหม้</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gold-400 mt-0.5"></i> ติดตั้ง Phase Protection ป้องกันไฟตก-ไฟเกิน ไฟไม่ครบเฟส</li>
+                        </ul>
+                    </div>
+                    <a href="https://pump.ksservice89.com/control-panel/" target="_blank" rel="noopener" class="mt-2 text-xs font-bold text-gold-400 hover:text-gold-200 flex items-center justify-between border-t border-slate-800 pt-3">
+                        <span>บริการตู้คอนโทรลปั๊มน้ำ</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+
+                <!-- การ์ด 4: Plumbing Pipe & Bypass -->
+                <div class="luxury-card rounded-xl p-5 flex flex-col justify-between">
+                    <div>
+                        <div class="relative overflow-hidden rounded-lg mb-4 border border-slate-700">
+                            <img src="https://raw.githubusercontent.com/ks89service/-ksservice-assets/main/service-pipe.jpg" 
+                                 alt="เดินท่อประปา PVC PPR ระบบบายพาส" 
+                                 class="w-full h-44 object-cover"
+                                 onerror="this.src='https://placehold.co/600x400/111827/d4af37?text=Plumbing+Pipe'">
+                            <span class="absolute top-2 left-2 bg-black/70 text-gold-300 text-xs px-2.5 py-1 rounded border border-gold-500/40 font-bold">งานระบบท่อ</span>
+                        </div>
+                        <h3 class="text-base font-bold text-gold-300 mb-2 flex items-center gap-2">
+                            <i class="fa-solid fa-faucet-drip"></i> เดินท่อประปา PVC / PPR
+                        </h3>
+                        <ul class="text-xs text-slate-300 space-y-2 mb-4">
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gold-400 mt-0.5"></i> เชื่อมท่อ PPR ด้วยความร้อน ไร้กาว ทนแรงดันและน้ำร้อน</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gold-400 mt-0.5"></i> วางระบบท่อ Bypass ใช้น้ำได้ต่อเนื่องแม้ไฟดับหรือปั๊มหยุดทำงาน</li>
+                            <li class="flex items-start gap-2"><i class="fa-solid fa-check text-gold-400 mt-0.5"></i> แก้ไขท่อประปาแตก รั่วซึมใต้พื้น ตรวจหาจุดรั่ว</li>
+                        </ul>
+                    </div>
+                    <a href="https://pipe.ksservice89.com" target="_blank" rel="noopener" class="mt-2 text-xs font-bold text-gold-400 hover:text-gold-200 flex items-center justify-between border-t border-slate-800 pt-3">
+                        <span>บริการเดินท่อประปาและบายพาส</span> <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- การ์ดพิเศษ: ปั๊มน้ำบ้านพักอาศัย -->
+            <div class="luxury-card rounded-2xl p-6 border-gold-goldfoil/50 mt-6">
+                <div class="flex flex-col md:flex-row items-center gap-6">
+                    <img src="https://raw.githubusercontent.com/ks89service/-ksservice-assets/main/service-home.jpg" 
+                         alt="ซ่อมปั๊มน้ำบ้านพักอาศัย Mitsubishi Hitachi ITC Grundfos" 
+                         class="w-full md:w-56 h-36 object-cover rounded-xl border border-gold-goldfoil/40"
+                         onerror="this.src='https://placehold.co/400x300/111827/d4af37?text=Home+Water+Pump'">
+                    <div class="space-y-2 flex-1">
+                        <span class="text-xs font-bold text-gold-400 uppercase tracking-wider"><i class="fa-solid fa-house-chimney"></i> Residential Water Pump Service</span>
+                        <h3 class="text-lg md:text-xl font-bold text-white">ช่างซ่อมปั๊มน้ำบ้านพักอาศัย ทาวน์โฮม บ้านเดี่ยว และงานเดินระบบท่อ</h3>
+                        <p class="text-xs md:text-sm text-slate-300">
+                            รับซ่อมปั๊มน้ำแรงดันคงที่ ปั๊มถังกลม เปลี่ยนอะไหล่ตรงรุ่น
+                        </p>
+                    </div>
+                    <div class="flex flex-col sm:flex-row md:flex-col gap-2 w-full md:w-auto">
+                        <a href="https://home-water-pump.ksservice89.com" target="_blank" rel="noopener" class="gold-btn text-black font-extrabold text-xs px-5 py-2.5 rounded-lg text-center shadow">
+                            บริการซ่อมปั๊มน้ำบ้าน
+                        </a>
+                        <a href="tel:0827127490" class="border border-gold-goldfoil/50 hover:bg-gold-500/10 text-gold-300 font-bold text-xs px-5 py-2.5 rounded-lg text-center transition">
+                            โทรเรียกช่างซ่อมปั๊มบ้าน
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Service Areas (พื้นที่ให้บริการ) -->
+        <section id="areas" class="space-y-6">
+            <div class="luxury-card rounded-2xl p-6 md:p-8">
+                <div class="max-w-3xl space-y-3">
+                    <span class="text-xs uppercase font-extrabold tracking-widest text-gold-400"><i class="fa-solid fa-map-location-dot"></i> Service Areas Coverage</span>
+                    <h2 class="text-xl md:text-3xl font-extrabold text-white">พื้นที่ให้บริการ (กรุงเทพฯ ฝั่งตะวันออก & สมุทรปราการ)</h2>
+                    <p class="text-xs md:text-sm text-slate-300">
+                        ตรวจสอบและแก้ไขปัญหาปั๊มน้ำและระบบปั๊มสูบน้ำ โซนหลักดังต่อไปนี้:
+                    </p>
+                </div>
+
+                <div class="flex flex-wrap gap-2 pt-5">
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 บางนา</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 ประเวศ</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 อุดมสุข</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 ลาซาล</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 แบริ่ง</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 อ่อนนุช</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 สวนหลวง</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 พัฒนาการ</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 กรุงเทพฯกรีฑา</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 สุขุมวิท</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 ศรีนครินทร์</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 ลาดกระบัง</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 บางจาก</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 พระโขนง</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 วัฒนา</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 เอกมัย</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 คลองตัน</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 สำโรง</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 กิ่งแก้ว</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 ราชาเทวะ</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 ราม 2</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 บางแก้ว</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 หนามแดง</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 บางพลี</span>
+                    <span class="px-3 py-1.5 rounded-lg bg-slate-800/80 border border-gold-goldfoil/40 text-gold-300 text-xs font-medium hover:border-gold-300 transition">📍 สมุทรปราการ</span>
+                </div>
+
+                <div class="mt-6 pt-5 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
+                    <div class="flex items-center gap-3">
+                        <i class="fa-solid fa-map-pin text-xl text-gold-400"></i>
+                        <span class="text-xs text-slate-300 font-mono">บริการ: ถ.บางนา-ตราด กม. / ศรีนครินทร์ (Geo: 13.6675, 100.6358)</span>
+                    </div>
+                    <a href="http://business.google.com/n/11072600062830195423/profile" target="_blank" rel="noopener" class="text-xs font-bold text-gold-300 hover:text-gold-100 flex items-center gap-2 border border-gold-goldfoil/40 px-4 py-2 rounded-lg bg-black/40">
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i> ตำแหน่งบริการ area Google Maps
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section id="faq" class="space-y-6">
+            <div class="text-center space-y-2">
+                <span class="text-xs uppercase font-extrabold tracking-widest text-gold-400">Technical Knowledge Base (AEO)</span>
+                <h2 class="text-2xl md:text-3xl font-extrabold">คำถามที่พบบ่อยและแนวทางแก้ไขเชิงช่าง (FAQ)</h2>
+                <div class="w-20 h-1 bg-gradient-to-r from-gold-400 to-gold-700 mx-auto rounded-full"></div>
+                <p class="text-sm text-slate-400 max-w-2xl mx-auto">รวมวิธีวินิจฉัยอาการเสียปั๊มน้ำบ้าน อาคาร และโรงงานอุตสาหกรรม จากประสบการณ์หน้างานโดยช่างเกียรติพงษ์</p>
+            </div>
+
+            <div class="space-y-4 max-w-4xl mx-auto">
+                <details class="group luxury-card rounded-xl border border-slate-700/80 open:border-gold-500/60 transition duration-300">
+                    <summary class="flex justify-between items-center p-5 cursor-pointer list-none select-none">
+                        <span class="text-sm md:text-base font-bold text-slate-100 flex items-center gap-3">
+                            <i class="fa-solid fa-circle-question text-gold-400 text-lg shrink-0"></i>
+                            1. ปั๊มน้ำตัดต่อถี่ทุก 2-3 วินาที หรือทำงานกระตุกเกิดจากสาเหตุใดและแก้อย่างไร?
+                        </span>
+                        <i class="fa-solid fa-chevron-down faq-icon text-gold-400 transition-transform duration-300 text-sm"></i>
+                    </summary>
+                    <div class="px-5 pb-5 pt-2 text-xs md:text-sm text-slate-300 border-t border-slate-800/80 leading-relaxed space-y-2">
+                        <p><strong>คำตอบสรุป:</strong> อาการปั๊มน้ำตัดต่อถี่เกิดจากแรงดันในระบบตกอย่างรวดเร็วทันทีที่ปั๊มตัดการทำงาน โดยมาจาก 4 สาเหตุหลักดังนี้:</p>
+                        <ul class="list-disc pl-5 space-y-1">
+                            <li><strong>ถังแรงดันไดอะแฟรมขาดหรือลมรั่ว:</strong> น้ำเข้าไปแทนที่อากาศ ทำให้ไม่มีแรงอัดอากาศช่วยหน่วงแรงดัน ต้องเติมลมหรือเปลี่ยนถังแรงดันใหม่</li>
+                            <li><strong>วาล์วกันน้ำย้อน (Check Valve) รั่ว:</strong> ทำให้น้ำไหลย้อนกลับลงถังเก็บน้ำส่งผลให้แรงดันตกทันที</li>
+                            <li><strong>ชุดเติมอากาศ (Air Charger) ตันหรือเสื่อม:</strong> ทำให้ปั๊มน้ำรุ่นถังกลมไม่มีอากาศสะสมในถัง</li>
+                            <li><strong>มีจุดน้ำรั่วซึมภายในบ้าน:</strong> เช่น ลูกลอยชักโครกซึม หรือท่อประปาฝังใต้พื้นแตกรั่ว</li>
+                        </ul>
+                    </div>
+                </details>
+
+                <details class="group luxury-card rounded-xl border border-slate-700/80 open:border-gold-500/60 transition duration-300">
+                    <summary class="flex justify-between items-center p-5 cursor-pointer list-none select-none">
+                        <span class="text-sm md:text-base font-bold text-slate-100 flex items-center gap-3">
+                            <i class="fa-solid fa-circle-question text-gold-400 text-lg shrink-0"></i>
+                            2. ปั๊มน้ำมีเสียงครางหึ่ง แต่มอเตอร์ไม่หมุนและตัวปั๊มร้อนจัด ควรทำอย่างไร?
+                        </span>
+                        <i class="fa-solid fa-chevron-down faq-icon text-gold-400 transition-transform duration-300 text-sm"></i>
+                    </summary>
+                    <div class="px-5 pb-5 pt-2 text-xs md:text-sm text-slate-300 border-t border-slate-800/80 leading-relaxed space-y-2">
+                        <p class="text-red-400 font-bold"><i class="fa-solid fa-triangle-exclamation"></i> ข้อควรระวัง: ให้สับคัตเอาต์หรือปิดเบรกเกอร์ตัดไฟปั๊มน้ำทันที เพื่อป้องกันขดลวดมอเตอร์ไหม้!</p>
+                        <p><strong>สาเหตุและวิธีแก้ไข:</strong> อาการนี้มักเกิดจาก <strong>คาปาซิเตอร์ (Capacitor)</strong> เสื่อมหรือบวมทำให้ไม่มีแรงส่งสตาร์ทมอเตอร์ หรือแกนใบพัดติดขัดจากสนิมและตะกรัน วิธีเช็กเบื้องต้นหลังตัดไฟแล้ว ให้ใช้ไขควงปากแบนหมุนสลักแกนท้ายมอเตอร์ หากหมุนลื่นปกติแสดงว่าเสียที่คาปาซิเตอร์ สามารถเปลี่ยนตามค่าไมโครฟารัดเดิมได้เลย แต่หากแกนฝืดติดขัดต้องให้ช่างรื้อล้างชุดใบพัดและซีลปั๊มน้ำ</p>
+                    </div>
+                </details>
+
+                <details class="group luxury-card rounded-xl border border-slate-700/80 open:border-gold-500/60 transition duration-300">
+                    <summary class="flex justify-between items-center p-5 cursor-pointer list-none select-none">
+                        <span class="text-sm md:text-base font-bold text-slate-100 flex items-center gap-3">
+                            <i class="fa-solid fa-circle-question text-gold-400 text-lg shrink-0"></i>
+                            3. การต่อปั๊มน้ำดูดตรงจากท่อเมนประปาผิดกฎหมายไหม และมีผลเสียอย่างไร?
+                        </span>
+                        <i class="fa-solid fa-chevron-down faq-icon text-gold-400 transition-transform duration-300 text-sm"></i>
+                    </summary>
+                    <div class="px-5 pb-5 pt-2 text-xs md:text-sm text-slate-300 border-t border-slate-800/80 leading-relaxed space-y-2">
+                        <p><strong>คำตอบสรุป:</strong> ผิดระเบียบข้อบังคับของการประปานครหลวง (กปน.) และการประปาส่วนภูมิภาค (กปภ.) ห้ามต่อปั๊มน้ำดูดตรงจากท่อประปาสาธารณะโดยเด็ดขาด</p>
+                        <p><strong>ผลเสียที่ตามมา:</strong> แรงดูดจากปั๊มจะดึงตะกอนดินและอากาศจากท่อเมนเข้ามาในระบบ ทำให้ปั๊มปั่นแต่อากาศ แรงดันไม่ถึงจุดตัดของ Pressure Switch จนตัวปั๊มร้อนจัดและมอเตอร์ไหม้ รวมถึงเป็นการแย่งน้ำเพื่อนบ้าน ระบบที่ถูกต้องตามมาตรฐานต้องเดินท่อประปาเข้าถังพักน้ำก่อน แล้วจึงใช้ปั๊มดูดจ่ายเข้าตัวอาคาร</p>
+                    </div>
+                </details>
+
+                <details class="group luxury-card rounded-xl border border-slate-700/80 open:border-gold-500/60 transition duration-300">
+                    <summary class="flex justify-between items-center p-5 cursor-pointer list-none select-none">
+                        <span class="text-sm md:text-base font-bold text-slate-100 flex items-center gap-3">
+                            <i class="fa-solid fa-circle-question text-gold-400 text-lg shrink-0"></i>
+                            4. ปั๊มน้ำทำงานตลอดเวลาแต่ไม่ได้เปิดใช้น้ำ เกิดจากอะไร?
+                        </span>
+                        <i class="fa-solid fa-chevron-down faq-icon text-gold-400 transition-transform duration-300 text-sm"></i>
+                    </summary>
+                    <div class="px-5 pb-5 pt-2 text-xs md:text-sm text-slate-300 border-t border-slate-800/80 leading-relaxed space-y-2">
+                        <p><strong>คำตอบสรุป:</strong> เกิดจากระบบท่อประปาภายในบ้านรั่วซึม ชักโครกซึม หรือเช็ควาล์ว (Check Valve) ในตัวปั๊มเสื่อมสภาพทำให้น้ำไหลย้อนกลับ</p>
+                        <p><strong>วิธีเช็กเบื้องต้นด้วยตัวเอง:</strong> ให้หมุนปิดบอลวาล์วน้ำขาออกจากปั๊มเข้าตัวบ้าน หากปิดวาล์วแล้วปั๊มตัดการทำงานทันที แสดงว่ามีท่อประปารั่วซึมภายในบ้านหรือใต้พื้น แต่ถ้าปิดวาล์วแล้วปั๊มยังเดินไม่หยุด แสดงว่าเช็ควาล์วหรือเพรสเชอร์สวิตช์ที่ตัวปั๊มมีปัญหา ต้องให้ช่างเข้าแก้ไข</p>
+                    </div>
+                </details>
+
+                <details class="group luxury-card rounded-xl border border-slate-700/80 open:border-gold-500/60 transition duration-300">
+                    <summary class="flex justify-between items-center p-5 cursor-pointer list-none select-none">
+                        <span class="text-sm md:text-base font-bold text-slate-100 flex items-center gap-3">
+                            <i class="fa-solid fa-circle-question text-gold-400 text-lg shrink-0"></i>
+                            5. ระบบ Booster Pump ในอาคารหรือโรงงาน แรงดันตก น้ำไหลเบา เกิดจากสาเหตุใด?
+                        </span>
+                        <i class="fa-solid fa-chevron-down faq-icon text-gold-400 transition-transform duration-300 text-sm"></i>
+                    </summary>
+                    <div class="px-5 pb-5 pt-2 text-xs md:text-sm text-slate-300 border-t border-slate-800/80 leading-relaxed space-y-2">
+                        <p><strong>คำตอบสรุป:</strong> มักเกิดจากปั๊มในชุดสลับ-เสริมการทำงาน (Alternating / Parallel System) ทำงานไม่ครบทุกตัว, เพรสเชอร์สวิตช์ (Pressure Switch) หรือเพรสเชอร์ทรานสมิตเตอร์คลาดเคลื่อน, ถังแรงดันไดอะแฟรมรั่ว หรือใบพัดปั๊มสึกหรอ ต้องตรวจสอบระบบตู้คอนโทรลและวัดค่ากระแสไฟของมอเตอร์แต่ละตัว</p>
+                    </div>
+                </details>
+
+                <details class="group luxury-card rounded-xl border border-slate-700/80 open:border-gold-500/60 transition duration-300">
+                    <summary class="flex justify-between items-center p-5 cursor-pointer list-none select-none">
+                        <span class="text-sm md:text-base font-bold text-slate-100 flex items-center gap-3">
+                            <i class="fa-solid fa-circle-question text-gold-400 text-lg shrink-0"></i>
+                            6. ปั๊มน้ำอุตสาหกรรมเกิดอาการโอเวอร์โหลด (Overload Trip) บ่อยครั้ง ต้องแก้ไขอย่างไร?
+                        </span>
+                        <i class="fa-solid fa-chevron-down faq-icon text-gold-400 transition-transform duration-300 text-sm"></i>
+                    </summary>
+                    <div class="px-5 pb-5 pt-2 text-xs md:text-sm text-slate-300 border-t border-slate-800/80 leading-relaxed space-y-2">
+                        <p><strong>คำตอบสรุป:</strong> อาการโอเวอร์โหลดทริปเกิดจากมอเตอร์กินกระแสไฟเกินพิกัด (Overcurrent) สาเหตุหลักมาจากลูกปืนมอเตอร์แตก ใบพัดติดขัดจากสิ่งสกปรก ระบบไฟฟ้า 3 เฟสจ่ายไฟมาไม่ครบเฟส หรือตั้งค่า Overload Relay ไม่สัมพันธ์กับเนมเพลทมอเตอร์ ต้องใช้เครื่องมือวัดค่าความต้านทานขดลวด (Megger Test) คลิปแอมป์วัดกระแส และเปลี่ยนลูกปืนหรือซีลแมคคานิคอล (Mechanical Seal)</p>
+                    </div>
+                </details>
+
+                <details class="group luxury-card rounded-xl border border-slate-700/80 open:border-gold-500/60 transition duration-300">
+                    <summary class="flex justify-between items-center p-5 cursor-pointer list-none select-none">
+                        <span class="text-sm md:text-base font-bold text-slate-100 flex items-center gap-3">
+                            <i class="fa-solid fa-circle-question text-gold-400 text-lg shrink-0"></i>
+                            7. ควรตรวจเช็กบำรุงรักษาปั๊มน้ำโรงงานและอาคาร (Preventive Maintenance) บ่อยแค่ไหน?
+                        </span>
+                        <i class="fa-solid fa-chevron-down faq-icon text-gold-400 transition-transform duration-300 text-sm"></i>
+                    </summary>
+                    <div class="px-5 pb-5 pt-2 text-xs md:text-sm text-slate-300 border-t border-slate-800/80 leading-relaxed space-y-2">
+                        <p><strong>คำตอบสรุป:</strong> ระบบปั๊มน้ำโรงงาน คอนโด และอาคารสูง ควรทำ PM (Preventive Maintenance) อย่างน้อยทุกๆ 3 ถึง 6 เดือน โดยตรวจเช็กค่ากระแสไฟฟ้าของมอเตอร์ สภาพลูกปืน ซีลกันรั่ว แรงดันลมในถังไดอะแฟรม วาล์วกันกลับ และระบบสลับการทำงานในตู้คอนโทรล เพื่อป้องกันปั๊มหยุดทำงานฉุกเฉิน</p>
+                    </div>
+                </details>
+
+                <details class="group luxury-card rounded-xl border border-slate-700/80 open:border-gold-500/60 transition duration-300">
+                    <summary class="flex justify-between items-center p-5 cursor-pointer list-none select-none">
+                        <span class="text-sm md:text-base font-bold text-slate-100 flex items-center gap-3">
+                            <i class="fa-solid fa-circle-question text-gold-400 text-lg shrink-0"></i>
+                            8. ขั้นตอนการเรียกช่างเข้าประเมินหน้างานและติดต่อซ่อมปั๊มน้ำต้องทำอย่างไร?
+                        </span>
+                        <i class="fa-solid fa-chevron-down faq-icon text-gold-400 transition-transform duration-300 text-sm"></i>
+                    </summary>
+                    <div class="px-5 pb-5 pt-2 text-xs md:text-sm text-slate-300 border-t border-slate-800/80 leading-relaxed space-y-2">
+                        <p><strong>ขั้นตอนการติดต่อ บริษัท เคเอส เซอร์วิส 89 จำกัด (ช่างเกียรติพงษ์):</strong></p>
+                        <ol class="list-decimal pl-5 space-y-1">
+                            <li><strong>ส่งข้อมูลอาการเสีย:</strong> ถ่ายรูปหน้างาน ป้ายเนมเพลทปั๊ม หรือคลิปวิดีโออาการเสีย ส่งมาที่ LINE ID: <code>082-712-7490</code> หรือโทร <a href="tel:0827127490" class="text-gold-300 underline font-bold">082-712-7490</a></li>
+                            <li><strong>ประเมินสาเหตุและแจ้งราคา:</strong> ช่างตรวจสอบข้อมูลเบื้องต้นและแจ้งแนวทางซ่อมพร้อมค่าใช้จ่ายให้ทราบก่อนตัดสินใจ</li>
+                            <li><strong>นัดหมายเข้าหน้างาน:</strong> เข้าตรวจเช็กและซ่อมหน้างานตามนัดหมายในเขตบางนา ศรีนครินทร์ สมุทรปราการ และกรุงเทพฯ ฝั่งตะวันออก พร้อมทดสอบระบบและรับประกันงานซ่อม</li>
+                        </ol>
+                    </div>
+                </details>
+            </div>
+        </section>
+
+        <!-- About Business Profile Section -->
+        <section id="about" class="luxury-card rounded-2xl p-6 md:p-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="space-y-4">
+                    <span class="text-xs uppercase font-extrabold tracking-widest text-gold-400">About Our Company</span>
+                    <h2 class="text-xl md:text-2xl font-extrabold text-white">เคเอส เซอร์วิส 89</h2>
+                    <p class="text-xs md:text-sm text-slate-300 leading-relaxed">
+                        บริการงานระบบน้ำประปาและปั๊มน้ำอุตสาหกรรม <strong>ช่างเกียรติพงษ์</strong> 🛠️ บริการตรวจเช็ค ซ่อมระบบปั๊ม Booster Pump, Transfer Pump
+                    </p>
+                    <div class="pt-2 flex flex-col gap-2 text-xs text-slate-300 font-medium">
+                        <div><i class="fa-solid fa-shield-halved text-gold-400 mr-2"></i> รับประกันงานซ่อมและติดตั้ง</div>
+                        <div><i class="fa-solid fa-truck-fast text-gold-400 mr-2"></i> มีค่าบริการเบื้องต้นออกไปเช็คหน้างานราคาตามตกลงกัน</div>
+                        <div><i class="fa-solid fa-file-invoice text-gold-400 mr-2"></i> ตรวจเช็คหน้างานเสนอราคาแจ้งซ่อม</div>
+                    </div>
+                </div>
+
+                <div class="bg-slate-900/90 rounded-xl p-5 border border-gold-goldfoil/40 space-y-3">
+                    <h3 class="text-sm font-bold text-gold-300 flex items-center gap-2">
+                        <i class="fa-solid fa-address-book"></i> ช่องทางการติดต่อโดยตรง
+                    </h3>
+                    <div class="space-y-2 text-xs">
+                        <div class="flex items-center justify-between p-2 rounded bg-slate-800/60">
+                            <span class="text-slate-400"><i class="fa-solid fa-phone mr-1.5 text-gold-400"></i> โทร:</span>
+                            <a href="tel:0827127490" class="text-gold-300 font-bold hover:underline">082-712-7490</a>
+                        </div>
+                        <div class="flex items-center justify-between p-2 rounded bg-slate-800/60">
+                            <span class="text-slate-400"><i class="fa-brands fa-line mr-1.5 text-green-400"></i> LINE ID:</span>
+                            <a href="https://line.me/ti/p/EUJqXVHGGA" target="_blank" rel="noopener" class="text-green-400 font-bold hover:underline">082-712-7490</a>
+                        </div>
+                        <div class="flex items-center justify-between p-2 rounded bg-slate-800/60">
+                            <span class="text-slate-400"><i class="fa-brands fa-facebook mr-1.5 text-blue-400"></i> เพจ Facebook:</span>
+                            <a href="https://www.facebook.com/ksservice898" target="_blank" rel="noopener" class="text-blue-300 hover:underline">เพจ เคเอส เซอร์วิส 89</a>
+                        </div>
+                        <div class="flex items-center justify-between p-2 rounded bg-slate-800/60">
+                            <span class="text-slate-400"><i class="fa-solid fa-globe mr-1.5 text-gold-400"></i> เว็บไซต์หลัก:</span>
+                            <a href="https://www.ksservice89.com" target="_blank" rel="noopener" class="text-gold-300 hover:underline">ช่างซ่อมปั๊มน้ำ เคเอส เซอร์วิส 89</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- แถบ URL ด้านล่าง -->
+        <section id="bottom-links" class="luxury-card rounded-2xl p-5 border-gold-goldfoil/40 space-y-3">
+            <div class="flex items-center justify-between">
+                <div>
+                    <span class="text-[11px] uppercase font-extrabold tracking-wider text-gold-400"><i class="fa-solid fa-network-wired mr-1"></i> บริการเฉพาะทาง</span>
+                    <h3 class="text-sm md:text-base font-bold text-white">เครือข่ายงานบริการทั้งหมด (เลื่อนซ้าย-ขวาเพื่อเลือกรายการ)</h3>
+                </div>
+                <span class="text-[11px] text-slate-400 hidden sm:inline"><i class="fa-solid fa-arrows-left-right text-gold-400 mr-1"></i> เลื่อนดูบริการเพิ่มเติม</span>
+            </div>
+
+            <div class="flex gap-2.5 overflow-x-auto no-scrollbar scroll-smooth py-2 px-1">
+                <a href="https://www.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-house"></i> <span>หน้าหลักช่างปั๊มน้ำ</span>
+                </a>
+                <a href="https://near-me.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-location-crosshairs"></i> <span>ช่างปั๊มน้ำใกล้ฉัน</span>
+                </a>
+                <a href="https://pump.ksservice89.com/service/" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-screwdriver-wrench"></i> <span>บริการซ่อมปั๊มน้ำอาคาร</span>
+                </a>
+                <a href="https://pump.ksservice89.com/mobile/" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-phone-volume"></i> <span>โทรปรึกษาช่างปั๊มน้ำ</span>
+                </a>
+                <a href="https://booster.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-industry"></i> <span>บริการซ่อมระบบ Booster Pump</span>
+                </a>
+                <a href="https://pump.ksservice89.com/control-panel/" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-bolt"></i> <span>บริการตู้คอนโทรลปั๊มน้ำ</span>
+                </a>
+                <a href="https://transfer-pump.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-building"></i> <span>บริการปั๊มส่งน้ำ Transfer Pump</span>
+                </a>
+                <a href="https://home-water-pump.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-house-chimney"></i> <span>บริการซ่อมปั๊มน้ำบ้านพักอาศัย</span>
+                </a>
+                <a href="https://divo.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-water"></i> <span>บริการซ่อมปั๊มจุ่มไดโว่</span>
+                </a>
+                <a href="https://service-submer.ksservice89.com/" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-filter"></i> <span>บริการปั๊มสูบน้ำเสียบ่อบำบัด</span>
+                </a>
+                <a href="https://pipe.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-faucet-drip"></i> <span>บริการเดินระบบท่อประปา PPR</span>
+                </a>
+                <a href="https://maintenance.ksservice89.com" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-clipboard-check"></i> <span>บริการตรวจเช็กบำรุงรักษา PM</span>
+                </a>
+                <a href="https://github.com/ks89service/-ksservice-assets" target="_blank" rel="noopener" class="gold-chip">
+                    <i class="fa-solid fa-images"></i> <span>ดูภาพผลงานซ่อมและติดตั้งจริง</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- ส่วนท้าย Footer -->
+    <footer class="border-t border-gold-goldfoil/30 bg-slateDark-950 py-8 px-4 text-center text-xs text-slate-400 space-y-3">
+        <div class="flex items-center justify-center gap-2">
+            <img src="https://raw.githubusercontent.com/ks89service/-ksservice-assets/main/logo.png" alt="Logo" class="w-6 h-6 rounded-full border border-gold-goldfoil">
+            <span class="font-bold text-slate-200">บริษัท เคเอส เซอร์วิส 89 จำกัด (KS SERVICE 89)</span>
+        </div>
+        <p>บริการซ่อมและติดตั้งระบบปั๊มน้ำ Booster Pump, Transfer Pump, ไดโว่, ตู้คอนโทรล และเดินท่อประปา PVC / PPR</p>
+        <p class="text-[11px] text-slate-500">© 2026 เคเอส เซอร์วิส 89 (ช่างเกียรติพงษ์)</p>
+    </footer>
+
+    <!-- ปุ่มโทรและไลน์ลอยด้านล่างสุด (Sticky Footer) -->
+    <aside aria-label="Quick Contacts" class="fixed bottom-0 left-0 right-0 z-50 bg-slateDark-950/95 backdrop-blur-md border-t border-gold-goldfoil/40 p-2.5 sm:p-3 shadow-2xl">
+        <div class="max-w-xl mx-auto flex items-center justify-between gap-3">
+            <a href="tel:0827127490" class="flex-1 gold-btn text-black font-extrabold py-3 px-4 rounded-xl flex items-center justify-center gap-2 text-sm shadow-lg text-center transition">
+                <i class="fa-solid fa-phone-volume text-base animate-pulse"></i>
+                <span>โทร: 082-712-7490</span>
+            </a>
+            <a href="https://line.me/ti/p/EUJqXVHGGA" target="_blank" rel="noopener" class="flex-1 bg-[#06c755] hover:bg-[#05b34c] text-white font-extrabold py-3 px-4 rounded-xl flex items-center justify-center gap-2 text-sm shadow-lg text-center transition">
+                <i class="fa-brands fa-line text-lg"></i>
+                <span>ทักไลน์ปรึกษาช่าง</span>
+            </a>
+        </div>
+    </aside>
+
 </body>
 </html>
